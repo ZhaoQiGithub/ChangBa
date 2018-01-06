@@ -1,0 +1,737 @@
+body{
+	background: #EEEEEE;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background:#F6F6F6;
+	text-align: center;
+	line-height:40px;
+	color:#333;
+	font-size: 1.3em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+header a{
+	position: absolute;
+	width: 25px;
+	height:25px;
+	
+}
+header a.find_lw{
+	background: url(../images/find-lw.jpg) no-repeat 0 0;
+	background-size:100%;
+	left:6%;
+	top:8px;
+}
+header a.find_ewm{
+	background: url(../images/find-ewm.jpg) no-repeat 0 0;
+	background-size:100%;
+	right:6%;
+	top:8px;
+}
+
+
+#find_nav{
+	width: 100%;
+}
+#find_nav dl.nav_first{
+	margin-top:40px;
+}
+#find_nav dl{
+	width: 100%;
+	height: 60px;
+	background:#fff;
+	border-bottom:1px solid#EEEEEE;
+	position: relative;
+}
+#find_nav dl dt{
+	width: 40px;
+	height: 40px;
+	margin:10px 10px;
+}
+#find_nav dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#find_nav dl dd.nav_title{
+	color:#000;
+	font-size: 1.25em;
+	padding-top:10px;
+}
+#find_nav dl dd.nav_msg{
+	color:#9F9F9F;
+}
+#find_nav dl span{
+	position: absolute;
+	right: 5%;
+	top:23px;
+}
+#find_nav dl span .gt{
+	width: 10px;
+	height: 15px;
+}
+#find_nav dl span .x{
+	width: 25px;
+	height: 20px;
+	padding-right:14px;
+	vertical-align: -3px;
+}
+
+
+#person{
+	width: 100%;
+	margin-top:10px;
+	background:#fff;
+}
+#person .per_title{
+	width: 100%;
+	height: 40px;
+	border-bottom:1px solid#EFEFEF;
+}
+#person .per_title dl{
+	width: 100%;
+	height: 100%;
+	color:#9B9B9B;
+}
+#person .per_title dl dt{
+	width: 22px;
+	height: 25px;
+	padding:8px 10px;
+}
+#person .per_title dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#person .per_title dl dd{
+	height: 100%;
+	line-height:40px;
+}
+#person .per_title dl dd.tit_fj{
+	color:#333;
+	font-size: 1.3em;
+}
+#person .per_title dl dd .gt{
+	width: 10px;
+	height: 15px;
+	vertical-align: -4px;
+	padding:0 15px;
+}
+#person .per_head{
+	width: 100%;
+	height: 114px;
+	background: #fff;
+}
+#person .per_head dl{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#person .per_head dl dt{
+	width: 45px;
+	height: 45px;
+	margin:10px 10px;
+}
+#person .per_head dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#person .per_head dl dd{
+	text-align:center;
+}
+#person .per_head dl dd.head_name{
+	color:#333;
+	font-size: 1.1em;
+}
+#person .per_head dl dd.head_style{
+	color:#BEBEBE;
+}
+#person .per_head dl dd.head_style img{
+	width: 10px;
+	height: 14px;
+	vertical-align:-3px;
+}
+#person .per_head dl dd.head_last img{
+	width: 13px;
+}
+
+
+#shop{
+	width: 100%;
+	background: #fff;
+	margin-top:10px;
+}
+#shop .per_title{
+	width: 100%;
+	height: 40px;
+	border-bottom:1px solid#EFEFEF;
+}
+#shop .per_title dl{
+	width: 100%;
+	height: 100%;
+	color:#9B9B9B;
+}
+#shop .per_title dl dt{
+	width: 22px;
+	height: 25px;
+	padding:8px 10px;
+}
+#shop .per_title dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#shop .per_title dl dd{
+	height: 100%;
+	line-height:40px;
+}
+#shop .per_title dl dd.tit_fj{
+	color:#333;
+	font-size: 1.3em;
+}
+#shop .per_title dl dd .gt{
+	width: 10px;
+	height: 15px;
+	vertical-align: -4px;
+	padding:0 15px;
+}
+#shop .shop_list{
+	width: 96%;
+	height: 150px;
+	margin:0 auto;
+}
+#shop .shop_list dl{
+	width: 33%;
+	height: 100%;
+	float: left;
+	color:#9B9B9B;
+}
+#shop .shop_list dl dt{
+	width: 100px;
+	height: 105px;
+	margin-top:15px;
+}
+#shop .shop_list dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#shop .shop_list dl dd{
+	text-align: center;
+	width: 100%;
+}
+
+
+#qun{
+	width: 100%;
+	background:#fff;
+	margin-top:10px;
+}
+#qun .per_title{
+	width: 100%;
+	height: 40px;
+	border-bottom:1px solid#EFEFEF;
+}
+#qun .per_title dl{
+	width: 100%;
+	height: 100%;
+	color:#9B9B9B;
+}
+#qun .per_title dl dt{
+	width: 22px;
+	height: 25px;
+	padding:8px 10px;
+}
+#qun .per_title dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#qun .per_title dl dd{
+	height: 100%;
+	line-height:40px;
+}
+#qun .per_title dl dd.tit_fj{
+	color:#333;
+	font-size: 1.3em;
+}
+#qun .per_title dl dd .gt{
+	width: 10px;
+	height: 15px;
+	vertical-align: -4px;
+	padding:0 15px;
+}
+#qun .qun_list{
+	width: 100%;
+	background:#fff;
+}
+#qun .qun_list .list_name{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+}
+#qun .qun_list .list_name .more_title{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#qun .qun_list .list_name ul{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+#qun .qun_list .list_name .list_head{
+	margin:10px 10px ;
+}
+#qun .qun_list .list_name .list_head img{
+	width: 100%;
+	height: 100%;
+}
+#qun .qun_list .list_name .list_msg{
+	width: 240px;
+	padding:10px 0;
+	border-bottom:1px solid#eee;
+}
+#qun .qun_list .list_name .list_msg .msg_name{
+	color:#000;
+	font-size: 1.3em;
+}
+#qun .qun_list .list_name .list_msg .msg_msg{
+	color:#A3A3A3;
+	margin-top:2px;
+}
+#qun .qun_list .list_name .list_msg .msg_inner{
+	color:#A3A3A3;
+	margin-top:2px;
+}
+#qun .qun_list .list_name .list_msg .msg_inner img{
+	width: 13px;
+	height: 15px;
+	vertical-align: -3px;
+}
+#qun .qun_list .list_name .list_msg .msg_inner img.pic_r{
+	padding-left:15px;
+}
+
+
+#more{
+	width: 100%;
+	background: #fff;
+	margin-top:10px;
+	margin-bottom:60px;
+}
+#more .more_title{
+	display: block;
+	color:#999999;
+	width: 95%;
+	height: 30px;
+	background: #F5F5F5;
+	line-height:30px;
+	padding-left:5%;
+}
+#more .more_list{
+	width: 100%;
+	height: 105px;
+	background: #fff;
+}
+#more .more_list .list_list{
+	width: 85%;
+	height: 100%;
+	margin:0 auto;
+}
+#more .more_list .list_list dl{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color:#333333;
+}
+#more .more_list .list_list dl dt{
+	margin:20px 0 5px 25px;
+	width: 40px;
+	height: 40px;
+}
+#more .more_list .list_list dl dt img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background:#F8F8F8;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+footer dl{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+footer dl dt{
+	width: 40%;
+	height: 25px;
+	padding:3px 0 3px 18px;
+}
+footer dl dt img{
+	width: 100%;
+	height: 100%;
+}
+footer dl dd{
+	text-align:center;
+	color:#999;
+}
+footer dl dd.ft_red{
+ 	color:#FF5046;
+}
+
+
+
+@media (min-width:375px){
+header{
+	height: 50px;
+	font-size:1.5em;
+	line-height:50px;
+}
+header a{
+	width: 30px;
+	height:30px;
+	
+}
+header a.find_lw{
+	left:5%;
+	top:12px;
+}
+header a.find_ewm{
+	right:5%;
+	top:12px;
+}
+#find_nav dl.nav_first{
+	margin-top:50px;
+}
+#find_nav dl dt{
+	margin-right:15px;
+}
+#find_nav dl dt img{
+	width: 45px;
+	height: 45px;
+}
+#find_nav dl span{
+	position: absolute;
+	right: 7%;
+	top:23px;
+}
+#person .per_title dl dt,#shop .per_title dl dt,#qun .per_title dl dt{
+	padding:8px 18px;
+}
+#person .per_title dl dd .gt,#shop .per_title dl dd .gt,#qun .per_title dl dd .gt{
+	padding-right:25px;
+}
+#person .per_head dl dt{
+	margin-left:15px;
+}
+#shop .shop_list{
+	height: 160px;
+}
+#shop .shop_list dl dt{
+	width: 100px;
+	height: 110px;
+	margin-top:15px;
+	margin-left:10px;
+}
+#shop .shop_list dl dd{
+	font-size: 1.1em;
+}
+#qun .qun_list .list_name{
+	height: 90px;
+}
+#qun .qun_list .list_name .list_head{
+	margin:15px 15px ;
+}
+#qun .qun_list .list_name .list_msg{
+	padding:15px 0;
+	width: 285px;
+}
+#qun .qun_list .list_name .list_msg .msg_name{
+	font-size: 1.4em;
+}
+#qun .qun_list .list_name .list_msg .msg_msg{
+	margin-top:5px;
+	font-size: 1.1em;
+}
+#qun .qun_list .list_name .list_msg .msg_inner{
+	margin-top:5px;
+}
+#qun .qun_list .list_name .list_msg .msg_inner img{
+	width: 15px;
+	height: 18px;
+	vertical-align: -5px;
+}
+#more{
+	margin-bottom:70px;
+}
+#more .more_title{
+	height: 35px;
+	line-height:35px;
+	font-size: 1.1em;
+}
+#more .more_list{
+	height: 110px;
+	background: #fff;
+}
+#more .more_list .list_list{
+	width: 82%;
+	height: 100%;
+	margin:0 auto;
+}
+#more .more_list .list_list dl{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color:#333333;
+}
+#more .more_list .list_list dl dt{
+	margin:20px 0 8px 28px;
+	width: 45px;
+	height: 45px;
+}
+#more .more_list .list_list dl dd{
+	font-size:1.12em;
+}
+footer{
+	height: 60px;
+}
+footer dl dt{
+	width: 40%;
+	height: 28px;
+	padding:6px 0 3px 23px;
+}
+footer dl dd{
+ 	font-size: 1.1em;
+}
+
+}
+
+
+
+@media (min-width:414px){
+header{
+	height: 55px;
+	font-size:1.6em;
+	line-height:55px;
+}
+header a{
+	width: 32px;
+	height:32px;	
+}
+header a.find_lw{
+	left:4.5%;
+	top:12px;
+}
+header a.find_ewm{
+	right:4.5%;
+	top:12px;
+}
+#find_nav dl{
+	height:65px;
+}
+#find_nav dl.nav_first{
+	margin-top:55px;
+}
+#find_nav dl dt img{
+	width: 48px;
+	height: 48px;
+}
+#find_nav dl dd{
+	font-size: 1.1em;
+}
+#find_nav dl dd.nav_title{
+	padding-top:12px;
+	font-size: 1.4em;
+}
+#find_nav dl span{
+	position: absolute;
+	right: 7%;
+	top:23px;
+}
+#find_nav dl span .gt{
+	width: 11px;
+	height: 18px;
+}
+#find_nav dl span .x{
+	width: 27px;
+	height: 23px;
+	padding-right:16px;
+	vertical-align: -3px;
+}
+
+
+#person .per_title dl dt,#shop .per_title dl dt,#qun .per_title dl dt{
+	padding:8px 18px;
+}
+#person .per_title dl dt img,#shop .per_title dl dt img,#qun .per_title dl dt img{
+	width: 25px;
+	height: 28px;
+}
+#person .per_title dl dd .gt,#shop .per_title dl dd .gt,#qun .per_title dl dd .gt{
+	padding-right:27px;
+	height: 18px;
+}
+#person .per_head{
+	height:130px;
+}
+#person .per_head dl dt{
+	width: 52px;
+	height: 52px;
+	margin-left:15px;
+	margin-top:15px;
+}
+#person .per_head dl dd.head_name{
+	font-size:1.3em;
+}
+#person .per_head dl dd.head_style{
+	font-size:1.2em;
+}
+
+
+#shop .per_title{
+	height: 45px;
+}
+#shop .per_title dd{
+	line-height:45px;
+}
+#shop .shop_list{
+	height: 170px;
+}
+#shop .shop_list dl dt{
+	width: 110px;
+	height: 120px;
+}
+#shop .shop_list dl dd{
+	font-size: 1.2em;
+}
+
+
+#qun .qun_list .list_name{
+	height: 100px;
+}
+#qun .qun_list .list_name .list_head{
+	width: 65px;
+	height: 65px;
+}
+#qun .qun_list .list_name .list_msg{
+	width: 319px;
+	height:70px;
+}
+#qun .qun_list .list_name .list_msg .msg_name{
+	font-size: 1.5em;
+}
+#qun .qun_list .list_name .list_msg .msg_msg{
+	margin-top:8px;
+	font-size:1.2em;
+}
+#qun .qun_list .list_name .list_msg .msg_inner{
+	margin-top:8px;
+}
+#qun .qun_list .list_name .list_msg .msg_inner img{
+	width: 16px;
+	height: 19px;
+	vertical-align: -4px;
+}
+#more{
+	margin-bottom:75px;
+}
+#more .more_title{
+	height: 40px;
+	line-height:40px;
+	font-size: 1.2em;
+}
+#more .more_list{
+	height: 120px;
+	background: #fff;
+}
+#more .more_list .list_list{
+	width: 82%;
+	height: 100%;
+	margin:0 auto;
+}
+#more .more_list .list_list dl{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color:#333333;
+}
+#more .more_list .list_list dl dt{
+	margin:20px 0 8px 30px;
+	width: 50px;
+	height: 50px;
+}
+#more .more_list .list_list dl dd{
+	font-size:1.25em;
+}
+footer{
+	height: 65px;
+}
+footer dl dt{
+	height: 32px;
+	padding:6px 0 3px 25px;
+}
+}
+
+
+@media(min-width:768px){
+header{
+	height:80px;
+	line-height:80px;
+	font-size:2.5em;
+}
+header a{
+	width:45px;
+	height:45px;
+}
+#find_nav dl.nav_first{
+	margin-top:80px;
+}
+#find_nav dl{
+	height:80px;
+}
+#find_nav dl dt{
+	width:60px;
+	height:60px;
+}
+#find_nav dl dt img{
+	width: 60px;
+	height: 60px;
+}
+#find_nav dl dd.nav_title{
+	padding-top:20px;
+	font-size:2em;
+}
+#find_nav dl dd.nav_msg{
+	font-size:1.5em;
+	margin-top:5px;
+}
+#find_nav dl span{
+	top:30px;
+	right:6%;
+}
+#find_nav dl span .gt{
+	width: 17px;
+	height: 27px;
+}
+#find_nav dl span .x{
+	width: 45px;
+	height: 40px;
+	padding-right:25px;
+	vertical-align: -6px;
+}
+
+
+}
+
+

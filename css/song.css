@@ -1,0 +1,414 @@
+#mask_r{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 320px;
+	display: none;
+	background: #fff;
+	z-index: 9999;
+}
+#mask_r .mask_head{
+	width: 100%;
+	height: 40px;
+	background: #F8F8F8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height:40px;
+	color: #333;
+	font-size:1.25em;
+	border-bottom:1px solid#E4E4E4;
+	z-index:999;
+}
+#mask_r .mask_head a{
+	position: absolute;
+	height: 25px;
+	width: 16px;
+	background: url(../images/mask_lt.jpg) no-repeat 0 0;
+	background-size:100%;
+	left: 10px;
+	top:9px;
+}
+#mask_r .mask_banz{
+	height: 50px;
+	width: 100%;
+	margin-top:40px;
+	text-align: center;
+	line-height:50px;
+	border-bottom:1px solid#EFEFEF;
+}
+#mask_r .mask_banz a{
+	color:#FF5046;
+	font-size:1.2em;
+}
+#mask_r .mask_list{
+	width: 100%;
+
+}
+#mask_r .mask_list ul{
+	width: 320px;
+	height: 70px;
+}
+#mask_r .mask_list ul.mar_ft{
+	margin-bottom:50px;
+}
+#mask_r .mask_list ul dl{
+	height:100%;
+	float: left;
+}
+#mask_r .mask_list ul dl.pic{
+	width: 50px;
+	height: 50px;
+	margin:5px 10px 10px 13px;
+}
+#mask_r .mask_list ul dl.pic dt{
+	width: 100%;
+	height: 100%;
+	
+}
+#mask_r .mask_list ul dl.pic dt img{
+	width: 100%;
+	height: 100%;
+}
+#mask_r .mask_list ul dl.text{
+	width: 247px;
+	border-bottom:1px solid#eee;
+	position: relative;
+}
+#mask_r .mask_list ul dl.text dd.txt_up{
+	color:#333;
+	font-size: 1.05em;
+	margin-top:10px;
+}
+#mask_r .mask_list ul dl.text dd.txt_dw{
+	color:#999;
+}
+#mask_r .mask_list ul dl.text dd.txt_up .hq{
+	width: 20px;
+	height: 12px;
+	vertical-align:-1px;
+}
+#mask_r .mask_list ul dl.text p{
+	position:absolute;
+	right:10px;
+	top:15px;
+	width: 50px;
+	height: 25px;
+	border-radius: 25px;
+	border:1px solid#ddd;
+	text-align: center;
+	line-height:25px;
+	color:#333;
+}
+
+
+
+
+
+header{
+	width: 100%;
+	height: 40px;
+	background: #F0F0F2;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:999;
+}
+header a{
+	display: block;
+}
+header a.mic{
+	width: 30px;
+	height: 100%;
+	margin-left: 5%;
+	background: url(../images/song-mic.jpg) no-repeat 0 5px;
+	background-size:100%; 
+}
+header li.serch{
+	width: 200px;
+	height: 100%;
+	position: relative;
+	line-height: 38px;
+	text-align: center;
+	margin-left: 3%;
+}
+header li.serch a{
+	position: absolute;
+	left: 25px;
+	top:12px;
+	width: 18px;
+	height: 22px;
+	background: url(../images/song-serch.jpg) no-repeat 0 0;
+	background-size:100%;
+}
+header li.serch input{
+	width: 80%;
+	height: 24px;	
+	border-radius:12px;
+	border:1px solid#E9E9E9;
+	color:#AEAEB1;
+	font-size: 1em;
+	font-family: "黑体";
+	padding-left:22%; 
+}
+header a.dian{
+	width: 40px;
+	height: 100%;
+	margin-right: 4%;
+	background: url(../images/song-dian.jpg) no-repeat 0 5px;
+	background-size:100%; 
+}
+
+#banner{
+	width: 100%;
+	height: 135px;
+	margin-top:40px;
+	position: relative;
+	overflow: hidden;
+}
+#banner ul{
+	position: absolute;
+	left: 0;
+}
+#banner ul li{
+	float: left;
+	width: 320px;
+	height: 135px;
+}
+#banner ul li img{
+	width: 100%;
+	height: 100%;
+}
+#banner p{
+	position: absolute;
+	bottom:5px;
+	left:130px;
+}
+#banner p span{
+	display: inline-block;
+	margin-left:5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 6px;
+	background: #666;
+	opacity: 0.5;
+}
+#banner p span.white{
+	background:#fff;
+	opacity: 1;
+}
+
+
+
+
+#content{
+	width: 100%;
+}
+#content .list ul{
+	width: 90%;
+	height: 55px;
+	margin:0 auto;
+}
+#content .list ul.list_up{
+	border-bottom:1px solid#F4F4F4;
+}
+#content .list dl{
+	width: 33%;
+	height: 100%;
+}
+#content .list dl dt{
+	width: 30px;
+	height: 30px;
+	padding:12px 12px ;
+}
+#content .list dl dt img{
+	width: 100%;
+	height: 100%;
+}
+#content .list dl dd{
+	width: 39px;
+	height: 22px;
+	line-height: 22px;
+	border-right:1px solid#E8E8E8;
+	text-align: left;
+	margin-top:16px;
+	font-size: 1.05em;
+	color:#333;
+}
+#content .list dl dd.list_bor{
+	border:none;
+}
+#content .ad{
+	width: 100%;
+	height: 60px;
+	border-top:1px solid#DDDDDD;
+}
+#content .ad a{
+	display: block;
+	float: left;
+	width: 30%;
+	margin-left:2%;
+	height: 50px;
+	margin-top:5px;
+	opacity: 0.7;
+}
+#content .ad a.adFirst{
+	margin-left:3%;
+}
+#content .ad a img{
+	width: 100%;
+	height: 100%;
+}
+#content .nav{
+	width: 100%;
+	height: 40px;
+	border-top:1px solid#DDDDDD;
+	border-bottom:1px solid#DDDDDD;
+	background: #fff;
+	z-index: 999;
+}
+#content .nav ul{
+	width: 90%;
+	height: 100%;
+	margin:0 auto;
+	position: relative;
+}
+#content .nav ul li{
+	float: left;
+	font-size: 1.05em;
+	width: 14%;
+	height: 100%;
+	line-height:38px;
+	text-align: center;
+	margin-left: 7.5%;
+	position: relative;
+}
+#content .nav ul li.navFirst{
+	margin:0;
+}
+#content .nav ul li.line{
+	position: absolute;
+	width: 12%;
+	height: 2px;
+	left: 4px;
+	bottom:-1px;
+	margin-left: 0;
+	background: #FF5046;
+}
+#content .nav ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#333;
+	position: relative;
+}
+#content .nav ul li a.red{
+	color:#FF5046;
+}
+#content .nav_msg{
+	width: 100%;
+	height: 762px;
+	position: relative;
+	overflow: hidden;
+}
+#content .nav_msg .nav_posi{
+	position: absolute;
+	left: 0;
+}
+#content .nav_msg .nav_posi section{
+	width: 320px;
+	float: left;
+}
+#content .nav_msg .nav_posi section ul{
+	width: 320px;
+	height: 70px;
+}
+#content .nav_msg .nav_posi section ul.mar_ft{
+	margin-bottom:50px;
+}
+#content .nav_msg .nav_posi section ul dl{
+	height:100%;
+	float: left;
+}
+#content .nav_msg .nav_posi section ul dl.pic{
+	width: 50px;
+	height: 50px;
+	margin:5px 10px 10px 13px;
+}
+#content .nav_msg .nav_posi section ul dl.pic dt{
+	width: 100%;
+	height: 100%;
+	
+}
+#content .nav_msg .nav_posi section ul dl.pic dt img{
+	width: 100%;
+	height: 100%;
+}
+#content .nav_msg .nav_posi section ul dl.text{
+	width: 247px;
+	border-bottom:1px solid#eee;
+	position: relative;
+}
+#content .nav_msg .nav_posi section ul dl.text dd.txt_up{
+	color:#333;
+	font-size: 1.05em;
+	margin-top:10px;
+}
+#content .nav_msg .nav_posi section ul dl.text dd.txt_dw{
+	color:#999;
+}
+#content .nav_msg .nav_posi section ul dl.text dd.txt_up .hq{
+	width: 20px;
+	height: 12px;
+	vertical-align:-1px;
+}
+#content .nav_msg .nav_posi section ul dl.text p{
+	position:absolute;
+	right:10px;
+	top:15px;
+	width: 50px;
+	height: 25px;
+	border-radius: 25px;
+	border:1px solid#ddd;
+	text-align: center;
+	line-height:25px;
+	color:#333;
+}
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background:#F8F8F8;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+footer dl{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+footer dl dt{
+	width: 40%;
+	height: 25px;
+	padding:3px 0 3px 18px;
+}
+footer dl dt img{
+	width: 100%;
+	height: 100%;
+}
+footer dl dd{
+	text-align:center;
+	color:#999;
+}
+footer dl dd.ft_red{
+ 	color:#FF5046;
+}

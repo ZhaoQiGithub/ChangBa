@@ -1,0 +1,538 @@
+body{
+   background: #EEEEEE;
+   height: 100%;
+   overflow: hidden;
+}
+#cb{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   z-index: 99999;
+   transition: 0.3s;
+}
+#cb img{
+   width: 100%;
+   height: auto;
+}
+#ad{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   z-index: 999;
+}
+#ad img{
+   width: 100%;
+   height: auto;
+}
+#ad p{
+   position: absolute;
+   top: 30px;
+   right: 10px; 
+   width: 50px;
+   height: 25px;
+   background: rgba(0,0,0,0.3);
+   text-align: center;
+   line-height:25px;
+   border-radius: 25px;
+   color: #fff;
+}
+header{
+   width: 100%;
+   height: 40px;
+   background: #F7F7F7;
+   opacity: 0.9;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index:999;
+   text-align: center;
+   line-height:40px;
+   font-size: 1.4em;
+   color:#333;
+   border-bottom:1px solid#E8E9E9;
+   z-index:99;
+}
+header span{
+   float: right;
+   position: absolute;
+   top:0;
+   right:4%;
+}
+header span img{
+   width: 26px;
+   height: 26px;
+   vertical-align: -7px;
+}
+
+#section{
+   width:100%;
+   margin-top: 40px;
+}
+#section .section1{
+   padding: 7px;
+   background: #fff;
+}
+@media only screen and (max-width: 1024px){
+   section#section .section1{height: 780px;}
+}
+@media only screen and (max-width: 768px){
+   section#section .section1{height: 660px;}
+}
+@media only screen and (max-width: 415px){
+   section#section .section1{height: 500px;}
+}
+
+#section .section1 .tit{
+   width: 100%;
+   height: 90px;
+}
+#section .section1 .tit img{
+   width: 90px;
+   height: 90px;
+}
+#section .section1 .tit .xm{
+   width: 200px;
+   height: 60px;
+   padding:30px 10px;
+   box-sizing: border-box;
+}
+#section .section1 .tit .xm .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+}
+#section .section1 .tit .xm span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 5px;
+}
+#section .section1 .tit .xm .zf{
+   clear: both;
+   color: #999999;
+}
+#section .section1 .msg{
+   font-size: 1em;
+   letter-spacing: 1.5px;
+   padding: 0 10px;
+}
+#section .section1 .con{
+   width: 96%;
+   padding: 0 7px;
+   background: #F5F5F5;
+   box-sizing: border-box;
+   margin: 0 auto;
+}
+@media only screen and (max-width: 1024px){
+   section#section .section1 .con{height: 660px;}
+}
+@media only screen and (max-width: 768px){
+   section#section .section1 .con{height: 540px;}
+}
+@media only screen and (max-width: 415px){
+   section#section .section1 .con{height: 370px;}
+}
+
+#section .section1 .con .t{
+   width: 200px;
+   height: 70px;
+   padding:0px 10px;
+   box-sizing: border-box;
+}
+#section .section1 .con .t img{
+   width: 70px;
+   height: 70px;
+   float: left;
+}
+#section .section1 .con .t .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+   padding-top: 27px;
+}
+#section .section1 .con .t span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 32px;
+}
+#section .section1 .con .d{
+   padding: 7px;
+}
+#section .section1 .con .aa{
+   width: 99%;
+   height: 50px;
+   border: 1px solid #DDDDDD;
+   border-top: none;
+   margin: 0 auto;
+}
+#section .section1 .con .pic{
+   width: 100%;
+   height: auto;
+}
+#section .section1 .con .song{
+   font-size: 1.2em;
+   color: #131313;
+   width: 100%;
+}
+#section .section1 .con .m img{
+   width: 18px;
+   height: 18px;
+   padding:5px 5px 0 0;
+}
+
+#section .section2{
+   height: 350px;
+   padding: 7px;
+   background: #fff;
+   margin-top: 10px;
+}
+#section .section2 .tit{
+   width: 100%;
+   height: 90px;
+}
+#section .section2 .tit img{
+   width: 90px;
+   height: 90px;
+}
+#section .section2 .tit .xm{
+   width: 200px;
+   height: 60px;
+   padding:30px 10px;
+   box-sizing: border-box;
+}
+#section .section2 .tit .xm .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+}
+#section .section2 .tit .xm span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 5px;
+}
+#section .section2 .tit .xm .zf{
+   clear: both;
+   color: #999;
+}
+#section .section2 .msg{
+   font-size: 1em;
+   letter-spacing: 1.5px;
+   padding: 0 10px;
+}
+#section .section2 .con{
+   width: 96%;
+   padding: 0 7px;
+   height: 210px;
+   background: #F5F5F5;
+   box-sizing: border-box;
+   margin: 0 auto;
+}
+
+#section .section2 .con .t{
+   width: 200px;
+   height: 70px;
+   padding:0px 10px;
+   box-sizing: border-box;
+}
+#section .section2 .t img{
+   width: 70px;
+   height: 70px;
+   float: left;
+}
+#section .section2 .con .t .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+   padding-top: 27px;
+}
+#section .section2 .con .t span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 32px;
+}
+#section .section2 .con .d{
+   padding: 7px;
+}
+#section .section2 .con .pic{
+   width: 80px;
+   height: auto;
+   float: left;
+}
+#section .section2 .con .aa{
+   height: 80px;
+   border: 1px solid #DDDDDD;
+   float: left;
+   padding-left: 15px;
+   box-sizing: border-box;
+}
+@media only screen and (max-width: 1024px){
+   section#section .section2 .con .aa{width: 90%;}
+}
+@media only screen and (max-width: 768px){
+   section#section .section2 .con .aa{width: 88%;}
+}
+@media only screen and (max-width: 415px){
+   section#section .section2 .con .aa{width: 75%;}
+}
+@media only screen and (max-width: 360px){
+   section#section .section2 .con .aa{width: 72%;}
+}
+@media only screen and (max-width: 320px){
+   section#section .section2 .con .aa{width: 70%;}
+}
+
+
+#section .section2 .con .song{
+   font-size: 1.2em;
+   color: #131313;
+   width: 100%;
+   padding-top: 20px;
+}
+#section .section2 .con .m img{
+   width: 18px;
+   height: 18px;
+   padding:5px 5px 0 0;
+}
+@media only screen and (max-width: 320px){
+   section#section .section2 .con .m img{width: 15px;height: 15px;padding:5px 2px 0 0;}
+}
+#section .section3{
+   padding: 7px;
+   background: #fff;
+   margin-top: 10px;
+
+}
+@media only screen and (max-width: 1024px){
+   section#section .section3{height: 780px;}
+}
+@media only screen and (max-width: 768px){
+   section#section .section3{height: 640px;}
+}
+@media only screen and (max-width: 415px){
+   section#section .section3{height: 500px;}
+}
+
+#section .section3 .tit{
+   width: 100%;
+   height: 90px;
+}
+#section .section3 .tit img{
+   width: 90px;
+   height: 90px;
+}
+#section .section3 .tit .xm{
+   width: 200px;
+   height: 60px;
+   padding:30px 10px;
+   box-sizing: border-box;
+}
+#section .section3 .tit .xm .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+}
+#section .section3 .tit .xm span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 5px;
+}
+#section .section3 .tit .xm .zf{
+   clear: both;
+   color: #999;
+}
+#section .section3 .msg{
+   font-size: 1em;
+   letter-spacing: 1.5px;
+   padding: 0 10px;
+}
+#section .section3 .con{
+   width: 96%;
+   padding: 0 7px;
+   background: #F5F5F5;
+   box-sizing: border-box;
+   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px){
+   section#section .section3 .con{height: 740px;}
+}
+@media only screen and (max-width: 768px){
+   section#section .section3 .con{height: 540px;}
+}
+@media only screen and (max-width: 415px){
+   section#section .section3 .con{height: 460px;}
+}
+#section .section3 .con .t{
+   width: 200px;
+   height: 70px;
+   padding:0px 10px;
+   box-sizing: border-box;
+}
+#section .section3 .t img{
+   width: 70px;
+   height: 70px;
+   float: left;
+}
+#section .section3 .con .t .name{
+   font-size: 1.1em;
+   color: #757575;
+   float: left;
+   padding-right: 5px;
+   padding-top: 27px;
+}
+#section .section3 .con .t span{
+   width: 30px;
+   height: 10px;
+   border-radius: 3px;
+   background: #FFBF00;
+   color: #fff;
+   font-style: initial;
+   text-align: center;
+   line-height: 10px;
+   float: left;
+   font-size: 0.3em;
+   font-family: '黑体';
+   margin-top: 32px;
+}
+#section .section3 .con .d{
+   padding: 7px;
+}
+#section .section3 .con .aa{
+   width: 99%;
+   height: 50px;
+   border: 1px solid #DDDDDD;
+   border-top: none;
+   margin: 0 auto;
+}
+#section .section3 .con .pic{
+   width: 100%;
+   height: auto;
+}
+#section .section3 .con .song{
+   font-size: 1.2em;
+   color: #131313;
+   width: 100%;
+}
+#section .section3 .con .m img{
+   width: 18px;
+   height: 18px;
+   padding:5px 5px 0 0;
+}
+
+footer{
+   width: 100%;
+   height: 50px;
+   background:#F8F8F8;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   z-index: 99;
+}
+footer dl{
+   float: left;
+   width: 20%;
+   height: 100%;
+}
+footer dl dt{
+   width: 40%;
+   height: 25px;
+   padding:3px 0 3px 18px;
+}
+footer dl dt img{
+   width: 100%;
+   height: 100%;
+}
+footer dl dd{
+   text-align:center;
+   color:#999;
+}
+footer dl dd.ft_red{
+   color:#FF5046;
+}
+
+@media only screen and (min-width: 375px){
+   header{ height:45px;line-height:45px;font-size:1.4em;}
+   header span{top:2px;right:4.2%;}
+   header span img{ width:30px;height:30px;}
+   #section{margin-top:45px;}
+   footer{height: 60px;}
+   footer dl dt{width: 40%;height: 28px;padding:6px 0 3px 23px;}
+   footer dl dd{font-size: 1.1em;}
+}
+@media only screen and (min-width: 414px){
+   header{ height:50px;line-height:50px;font-size:1.5em;}
+   header span{top:4px;right:4.5%;}
+   header span img{ width:33px;height:33px;}
+   #section{margin-top:50px;}
+   footer{height: 65px;}
+   footer dl dt{height: 32px;padding:6px 0 3px 25px; }
+}
+@media only screen and (min-width: 768px){
+   header{ height:65px;line-height:65px;font-size:2em;}
+   header span{top:10px;}
+   header span img{ width:45px;height:45px;}
+   #section{margin-top:65px;}
+   footer{height: 85px; }  
+   footer dl dt{width: 35%;height: 50px;padding:6px 0 3px 48px;}
+   footer dl dd{font-size: 1.5em;}
+}
+@media only screen and (min-width: 1024px){
+   header{ height:80px;line-height:80px;font-size:2.4em;}
+   header span{top:10px;right:4.8%;}
+   header span img{ width:55px;height:55px;}
+   #section{margin-top:80px;}
+   footer{ height: 100px;}  
+   footer dl dt{ width: 32%;height: 60px;padding:6px 0 8px 68px;}
+   footer dl dd{font-size: 1.8em;}
+}
